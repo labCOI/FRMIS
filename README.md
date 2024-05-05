@@ -2,13 +2,13 @@
 
 Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automatic stitching algorithm to generate a consistent whole-slide image. This algorithm utilizes dominant SURF features from a small part of the overlapping region to achieve pairwise registration and consider the number of matched features in the global alignment. It implements global alignment algorithms such as Minimum Spanning Tree (MST) and Shortest Path Spanning Tree (SPT) for aligning the images. FRMIS is designed to stitch 2D microscopic images from different image modalities, including bright-field, phase-contrast, and fluorescence. 
 
-## Usage steps
+## Usage
 
-1. Clone or download the repository to your local machine.
+Step 1. Clone or download the repository to your local machine.
 
-2. Open the MATLAB script `start_stitch.m`.
+Step 2. Open the MATLAB script `start_stitch.m`.
 
-3. Customize the script by setting the following parameters:
+Step 3. Customize the script by setting the following parameters:
 
     - `dataset_dir`: Directory containing the images to be stitched.
     
@@ -39,7 +39,7 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
 
     To illustrate the parameter inputs for stitching image collections, let's consider the **Tak dataset** as an example. Below is how the parameters are configured for one collection of **Tak dataset**:
 
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/9575a0f1-379a-4702-9371-8f4c3db290bd) 
+    ![image](https://github.com/labCOI/FRMIS/assets/60792530/9575a0f1-379a-4702-9371-8f4c3db290bd)  
     Below is how the parameters are configured for the **Human colon dataset**: 
     ![image](https://github.com/labCOI/FRMIS/assets/60792530/2a904a4e-3bcb-4432-953d-fa0ed9dfbeeb) 
     Below is how the parameters are configured for the **stem cell colony (SCC) dataset: Level3**: 
@@ -47,8 +47,8 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
     Below is how the parameters are configured for the **stem cell colony (SCC) dataset: Level1, Level2, phase**: 
     ![image](https://github.com/labCOI/FRMIS/assets/60792530/fca7f7d9-0395-4982-ba1a-345f9c1649bd) 
     Below is how the parameters are configured for the **stem cell colony (SCC) dataset: small, small_phase**: 
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/0cc3f0aa-74da-4e16-b485-0b8b066db609)
-4. Run the script in MATLAB.
+    ![image](https://github.com/labCOI/FRMIS/assets/60792530/0cc3f0aa-74da-4e16-b485-0b8b066db609) 
+Step 4. Run the script in MATLAB.
 
 ## Output
 
