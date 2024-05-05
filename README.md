@@ -11,7 +11,7 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
 3. Customize the script by setting the following parameters:
     
     - `Optimization_option`: Choose between 'False' and 'True' to enable/disable optimization.  
-      **Optimization = Optimization_option{1}** <ins>isables</ins> registration optimization  
+      **Optimization = Optimization_option{1}** <ins>disables</ins> registration optimization  
       **Optimization = Optimization_option{2}** <ins>enables</ins> registration optimization
       
     - `GlobalRegistration_option`: Choose between 'MST' and 'SPT' for global registration.  
