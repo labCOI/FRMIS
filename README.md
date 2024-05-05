@@ -28,9 +28,20 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
     - `overlap`: Overlap percent between adjacent tiles.
     - `img_num`: Total number of tiles.
     - `img_type`: Image file type.
-    - `sort_type`: Sorting type indicates patern of grid (order of the tiles).
-    - `modality`: Imaging modality to adjust the SURF's threshold value.
+    - `sort_type`: Sorting type indicates the pattern of grid (order of the tiles).
+       sort_type = 1 indicates below pattern:
+       ![1,1,1,2](https://github.com/labCOI/FRMIS/assets/60792530/34fe6eaf-527d-4653-9b16-87fa2dccf46c)
+       sort_type = 2 indicates below pattern:
+      ![1,3,2,2](https://github.com/labCOI/FRMIS/assets/60792530/0c444e9c-bd74-425c-814e-f1060e29b31d)
 
+
+    - `modality`: Imaging modality to adjust the SURF's threshold value.
+   
+    ### Example Parameters for Stitching Image Collections from Various Datasets:
+
+    To illustrate the parameter inputs for stitching image collections, let's consider the `Tak dataset` as an example. Below is how the parameters are configured for this dataset:
+
+    ![2024-05-05_191655](https://github.com/f-mohammadi/Stitching/assets/60792530/3950f597-3c05-4599-9e5a-dcf301668adf)
 4. Run the script in MATLAB.
 
 ## Output
