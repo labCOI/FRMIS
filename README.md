@@ -30,7 +30,8 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
     - `img_type`: Image file type.
     - `sort_type`: Sorting type indicates the pattern of grid (order of the tiles).  
        sort_type = 1 indicates below pattern: &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; sort_type = 2 indicates below pattern:&nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; 
-       ![image](https://github.com/labCOI/FRMIS/assets/60792530/1908c95d-2b45-46ae-8537-7b20499df655)
+       ![image](https://github.com/labCOI/FRMIS/assets/60792530/82294026-b9e0-49c7-95f3-08a7f172a7b7)
+
 
 
 
