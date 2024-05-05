@@ -11,16 +11,16 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
 3. Customize the script by setting the following parameters:
     
     - `Optimization_option`: Choose between 'False' and 'True' to enable/disable optimization.  
-      **Optimization = Optimization_option{1}** disables registration optimization  
-      **Optimization = Optimization_option{2}** enables registration optimization
+      **Optimization = Optimization_option{1}** <ins>isables</ins> registration optimization  
+      **Optimization = Optimization_option{2}** <ins>enables</ins> registration optimization
       
     - `GlobalRegistration_option`: Choose between 'MST' and 'SPT' for global registration.  
-      **GlobalRegistration = GlobalRegistration_option{1}** chooses 'MST' Minimum Spanning Tree for global registration  
-      **GlobalRegistration = GlobalRegistration_option{2}** chooses 'SPT' Shortest path Spanning Tree for global registration
+      **GlobalRegistration = GlobalRegistration_option{1}** chooses <ins>'MST' Minimum Spanning Tree</ins> for global registration  
+      **GlobalRegistration = GlobalRegistration_option{2}** chooses <ins>SPT' Shortest path Spanning Tree</ins> for global registration
       
     - `blend_method_options`: Choose between 'Overlay' and 'Linear' for blending method.  
-      **blend_method = blend_method_options{1}** chooses 'Overlay' blending method  
-      **blend_method = blend_method_options{2}** chooses 'Linear' blending method
+      **blend_method = blend_method_options{1}** chooses <ins>Overlay</ins> blending method  
+      **blend_method = blend_method_options{2}** chooses <ins>Linear</ins> blending method
       
     - `alpha`: Alpha value for linear blending.
     
