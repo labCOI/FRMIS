@@ -9,18 +9,24 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
 2. Open the MATLAB script `start_stitch.m`.
 
 3. Customize the script by setting the following parameters:
-
+    
+    - `Optimization_option`: Choose between 'False' and 'True' to enable/disable optimization.
+      **Optimization = Optimization_option{1}** disables registration optimization
+      **Optimization = Optimization_option{2}** enables registration optimization
+      
+    - `GlobalRegistration_option`: Choose between 'MST' and 'SPT' for global registration.
+      **GlobalRegistration = GlobalRegistration_option{1}** chooses 'MST' Minimum Spanning Tree for global registration
+      **GlobalRegistration = GlobalRegistration_option{2}** chooses 'SPT' Shortest path Spanning Tree for global registration
+      
+    - `blend_method_options`: Choose between 'Overlay' and 'Linear' for blending method.
+      **blend_method = blend_method_options{1}** chooses 'Overlay' blending method
+      **blend_method = blend_method_options{2}** chooses 'Linear' blending method
+      
+    - `alpha`: Alpha value for linear blending.
+    
     - `dataset_dir`: Directory containing the images to be stitched.
     
     - `dataset_name`: Name of the dataset.
-    
-    - `Optimization_option`: Choose between 'False' and 'True' to enable/disable optimization.
-    
-    - `GlobalRegistration_option`: Choose between 'MST' and 'SPT' for global registration.
-    
-    - `blend_method_options`: Choose between 'Overlay' and 'Linear' for blending method.
-    
-    - `alpha`: Alpha value for linear blending.
     
     Parameters specific to your dataset, available in Whole-Slide Imaging (WSI) technique, such as:
     - `width`: Width of image grid (number of columns).
