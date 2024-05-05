@@ -34,12 +34,16 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
     - `overlap`: Overlap percent between adjacent tiles.
     - `img_num`: Total number of tiles.
     - `img_type`: Image file type.
-    - `sort_type`: Sorting type indicates the pattern of grid (order of the tiles).  
-        **sort_type = 1** indicates below pattern: &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; **sort_type = 2** indicates below pattern:
-        ![image](https://github.com/labCOI/FRMIS/assets/60792530/e0440b5c-fc1c-4ae5-b96e-a492134e01a1)
-    - `modality`: Imaging modality to adjust the SURF's threshold value.   
-        **modality = modality_option{1}** indicates <ins>BrightField</ins> modality  
-        **modality = modality_option{2}** indicates <ins>phase & Fluorescent</ins> modality
+    - `sort_type`: Sorting type indicates the pattern of the grid (order of the tiles).  
+      - **sort_type = 1**: Indicates the pattern shown below:    
+      ![1,1,1,2](https://github.com/labCOI/FRMIS/assets/60792530/642be80e-30ed-4553-a5ec-675348643044)
+
+     - **sort_type = 2**: Indicates the pattern shown below:  
+      ![1,3,2,2](https://github.com/labCOI/FRMIS/assets/60792530/f1720eb1-6854-40e2-9b38-7d04addd923c)
+
+    - `modality`: Imaging modality to adjust the SURF's threshold value.     
+      - **modality = modality_option{1}**: Indicates the BrightField modality.    
+      - **modality = modality_option{2}**: Indicates the Phase & Fluorescent modality.  
    
     ### Example Parameters for Stitching Image Collections from Various Datasets:
 
