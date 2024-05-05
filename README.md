@@ -39,7 +39,7 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
         ![image](https://github.com/labCOI/FRMIS/assets/60792530/e0440b5c-fc1c-4ae5-b96e-a492134e01a1)
     - `modality`: Imaging modality to adjust the SURF's threshold value.   
         **modality = modality_option{1}** indicates <ins>BrightField</ins> modality  
-        **modality = modality_option{2}** indicates <ins>phase&Fluorescent</ins> modality
+        **modality = modality_option{2}** indicates <ins>phase & Fluorescent</ins> modality
    
     ### Example Parameters for Stitching Image Collections from Various Datasets:
 
