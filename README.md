@@ -37,17 +37,23 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
    
     ### Example Parameters for Stitching Image Collections from Various Datasets:
 
-    To illustrate the parameter inputs for stitching image collections, let's consider the **Tak dataset** as an example. Below is how the parameters are configured for one collection of **Tak dataset**:
-
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/9575a0f1-379a-4702-9371-8f4c3db290bd)  
-    Below is how the parameters are configured for the **Human colon dataset**: 
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/2a904a4e-3bcb-4432-953d-fa0ed9dfbeeb)      
-    Below is how the parameters are configured for the **stem cell colony (SCC) dataset: Level3**:   
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/a39ebb15-be32-4378-a7cd-e739cae6e512)   
-    Below is how the parameters are configured for the **stem cell colony (SCC) dataset: Level1, Level2, phase**:   
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/fca7f7d9-0395-4982-ba1a-345f9c1649bd)   
-    Below is how the parameters are configured for the **stem cell colony (SCC) dataset: small, small_phase**:   
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/0cc3f0aa-74da-4e16-b485-0b8b066db609)   
+    To demonstrate the parameter inputs for stitching image collections, let's explore examples from different datasets:  
+    1. **Tak Dataset:**  
+    ![image](https://github.com/labCOI/FRMIS/assets/60792530/9575a0f1-379a-4702-9371-8f4c3db290bd)
+    
+    3. **Human Colon Dataset:**  
+    ![image](https://github.com/labCOI/FRMIS/assets/60792530/2a904a4e-3bcb-4432-953d-fa0ed9dfbeeb)
+        
+    5. **Stem Cell Colony (SCC) Dataset - Level 3:**   
+    ![image](https://github.com/labCOI/FRMIS/assets/60792530/a39ebb15-be32-4378-a7cd-e739cae6e512)
+    
+    7. **Stem Cell Colony (SCC) Dataset - Level 1, Level 2, Phase:**    
+    ![image](https://github.com/labCOI/FRMIS/assets/60792530/fca7f7d9-0395-4982-ba1a-345f9c1649bd)
+     
+    9. **Stem Cell Colony (SCC) Dataset - Small, Small Phase:**   
+    ![image](https://github.com/labCOI/FRMIS/assets/60792530/0cc3f0aa-74da-4e16-b485-0b8b066db609)
+   
+    These examples showcase various configurations of parameters for different datasets, enabling effective stitching of image collections.
 4. Run the script in MATLAB.
 
 ## Output
