@@ -38,7 +38,7 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
       - **sort_type = 1**: Indicates the pattern shown below:    
       ![1,1,1,2](https://github.com/labCOI/FRMIS/assets/60792530/642be80e-30ed-4553-a5ec-675348643044)
 
-     - **sort_type = 2**: Indicates the pattern shown below:  
+      - **sort_type = 2**: Indicates the pattern shown below:  
       ![1,3,2,2](https://github.com/labCOI/FRMIS/assets/60792530/f1720eb1-6854-40e2-9b38-7d04addd923c)
 
     - `modality`: Imaging modality to adjust the SURF's threshold value.     
