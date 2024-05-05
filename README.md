@@ -53,7 +53,7 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
     9. **Stem Cell Colony (SCC) Dataset - Small, Small Phase:**   
     ![image](https://github.com/labCOI/FRMIS/assets/60792530/0cc3f0aa-74da-4e16-b485-0b8b066db609)
    
-    These examples showcase various configurations of parameters for different datasets, enabling effective stitching of image collections.
+     These examples showcase various configurations of parameters for different datasets, enabling effective stitching of image collections.
 4. Run the script in MATLAB.
 
 ## Output
