@@ -1,8 +1,5 @@
 clear all;close all;clc;
 warning('off')
-% Enter Directory and name of the dataset
-dataset_dir = 'C:\Users\Administrator\Downloads\Small_Fluorescent_Test_Dataset\Tak_Dataset-Corrected1\026-01-91-Corrected\'
-dataset_name = '026-01-91-Corrected'
 
 modality_option = {'BrightField','phase&Fluorescent'};
 Optimization_option = {'False','True'};
@@ -17,6 +14,10 @@ blend_method = blend_method_options{1};
 % Adjust alpha value for lieanr blending
 alpha = 1.5; % controls the linear blending, higher alpha will blend the edges more, alpha of 0 turns the linear blending into average blending
 
+% Enter Directory and name of the dataset
+dataset_dir = 'C:\Users\Administrator\Downloads\Tak_Dataset\026-01-91-Corrected\'
+dataset_name = '026-01-91-Corrected'
+
 % Set parameters based on the dataset
 % %% Parameters for Tak dataset
 width = 10; % Width of image grid (number of columns)
@@ -28,7 +29,7 @@ sort_type = 1; % Sorting type indicates patern of grid
 modality = modality_option{1}; %'BrightField' modality
 
 % %% Parameters for human colon dataset
-% width = 29; height = 21; overlap = 3; img_num = 609; img_type = '.tif'; sort_type = 2;modality = modality_option{1};
+% width = 29; height = 21; overlap = 3; img_num = 609; img_type = '.tif'; sort_type = 2;modality = modality_option{2};
 % %% Parameters for stem cell colony (SCC) dataset: Level3
 % width = 23; height = 24; overlap = 10; img_num = 552; img_type = '.tif'; sort_type = 1;modality = modality_option{2};
 % %% Parameters for stem cell colony (SCC) dataset: Level1, Level2, phase
