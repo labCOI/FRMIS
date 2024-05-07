@@ -1,4 +1,4 @@
-![2024-05-07_124705](https://github.com/labCOI/FRMIS/assets/60792530/4ba21cba-a7e0-4e4b-a80a-b34ecb53aaa6)# FRMIS: Fast and Robust Feature-based Stitching Algorithm for Microscopic Images
+# FRMIS: Fast and Robust Feature-based Stitching Algorithm for Microscopic Images
 
 Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automatic stitching algorithm to generate a consistent whole-slide image. This algorithm utilizes dominant SURF features from a small part of the overlapping region to achieve pairwise registration and consider the number of matched features in the global alignment. It implements global alignment algorithms such as Minimum Spanning Tree (MST) and Shortest Path Spanning Tree (SPT) for aligning the images. FRMIS is designed to stitch 2D microscopic images from different image modalities, including bright-field, phase-contrast, and fluorescence. 
 
