@@ -57,7 +57,7 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
     ![2024-05-07_125016](https://github.com/labCOI/FRMIS/assets/60792530/ed71518b-5a77-415d-9212-b90d983e0522)
 
     7. **Stem Cell Colony (SCC) Dataset - Level 1, Level 2, Phase:**    
-    ![2024-05-07_124705](https://github.com/labCOI/FRMIS/assets/60792530/e8d4ed6a-3235-4901-a549-ee7ca21031e1)
+    ![2024-05-07_124943](https://github.com/labCOI/FRMIS/assets/60792530/2ba7447e-e50a-4099-bdc1-5e892e4e8363)
 
     9. **Stem Cell Colony (SCC) Dataset - Small, Small Phase:**   
     ![2024-05-07_124705](https://github.com/labCOI/FRMIS/assets/60792530/8c440aa4-feac-498b-9079-37bd91531264)
