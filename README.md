@@ -28,13 +28,13 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
     
     - `dataset_name`: Name of the dataset.
     
-    Parameters specific to your dataset, available in Whole-Slide Imaging (WSI) technique, such as:
+    Specific parameters related to your dataset, which are accessible through the Whole-Slide Imaging (WSI) technique, such as:
     - `width`: Width of image grid (number of columns).
     - `height`: Height of image grid (number of rows).
-    - `overlap`: Overlap percent between adjacent tiles.
+    - `overlap`: Overlap percentage between adjacent tiles.
     - `img_num`: Total number of tiles.
     - `img_type`: Image file type.
-    - `sort_type`: Sorting type indicates the pattern of the grid (order of the tiles).  
+    - `sort_type`: Sorting type indicates the pattern of the grid (the sequence of capturing tiles).  
       - **sort_type = 1**: Indicates the pattern shown below:    
       ![1,1,1,2](https://github.com/labCOI/FRMIS/assets/60792530/642be80e-30ed-4553-a5ec-675348643044)
 
