@@ -113,8 +113,8 @@ The script generates the stitched image and saves it as a JPG file. It also save
 - Adjust the parameters according to the properties of your dataset for optimal stitching results.
 
 - This script assumes that the images are named in a sequential order and can be sorted accordingly. If your images have a different naming convention, you may need to modify the sorting logic.
-  An example of the sequential order of image names is shown below:
-  ![image](https://github.com/labCOI/FRMIS/assets/60792530/031cfd95-b1a0-4a44-b536-7182ecd85c81)
+  - An example of the sequential order of image names is shown below:
+   ![image](https://github.com/labCOI/FRMIS/assets/60792530/031cfd95-b1a0-4a44-b536-7182ecd85c81)
 
 - Ensure that the necessary MATLAB toolboxes (such as Image Processing Toolbox) are installed and accessible.
 
