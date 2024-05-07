@@ -49,16 +49,15 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
 
     To demonstrate the parameter inputs for stitching image collections, let's explore examples from different datasets:  
     1. **Tak Dataset:**  
-    ![2024-05-07_125243](https://github.com/labCOI/FRMIS/assets/60792530/23270228-2601-4298-93a1-c351051fb03d)
+    ![2024-05-07_125343](https://github.com/labCOI/FRMIS/assets/60792530/30ba1a7c-2dd5-463d-a5e1-0215adad5d47)
 
     3. **Human Colon Dataset:**  
-    ![2024-05-07_125343](https://github.com/labCOI/FRMIS/assets/60792530/30ba1a7c-2dd5-463d-a5e1-0215adad5d47)
-  
+    ![2024-05-07_125243](https://github.com/labCOI/FRMIS/assets/60792530/23270228-2601-4298-93a1-c351051fb03d)
     5. **Stem Cell Colony (SCC) Dataset - Level 3:**   
-    ![2024-05-07_124943](https://github.com/labCOI/FRMIS/assets/60792530/e6337287-4c21-4c7e-959f-4b238ba0d086)
+    ![2024-05-07_125016](https://github.com/labCOI/FRMIS/assets/60792530/ed71518b-5a77-415d-9212-b90d983e0522)
 
     7. **Stem Cell Colony (SCC) Dataset - Level 1, Level 2, Phase:**    
-    ![2024-05-07_125016](https://github.com/labCOI/FRMIS/assets/60792530/ed71518b-5a77-415d-9212-b90d983e0522)
+    ![2024-05-07_124943](https://github.com/labCOI/FRMIS/assets/60792530/e6337287-4c21-4c7e-959f-4b238ba0d086)
 
     9. **Stem Cell Colony (SCC) Dataset - Small, Small Phase:**   
     ![2024-05-07_124705](https://github.com/labCOI/FRMIS/assets/60792530/8c440aa4-feac-498b-9079-37bd91531264)
