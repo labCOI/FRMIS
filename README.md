@@ -1,4 +1,4 @@
-# FRMIS: Fast and Robust Feature-based Stitching Algorithm for Microscopic Images
+![2024-05-07_124705](https://github.com/labCOI/FRMIS/assets/60792530/4ba21cba-a7e0-4e4b-a80a-b34ecb53aaa6)# FRMIS: Fast and Robust Feature-based Stitching Algorithm for Microscopic Images
 
 Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automatic stitching algorithm to generate a consistent whole-slide image. This algorithm utilizes dominant SURF features from a small part of the overlapping region to achieve pairwise registration and consider the number of matched features in the global alignment. It implements global alignment algorithms such as Minimum Spanning Tree (MST) and Shortest Path Spanning Tree (SPT) for aligning the images. FRMIS is designed to stitch 2D microscopic images from different image modalities, including bright-field, phase-contrast, and fluorescence. 
 
@@ -49,20 +49,20 @@ Fast and Robust Microscopic Image Stitching (FRMIS) is a fast and robust automat
 
     To demonstrate the parameter inputs for stitching image collections, let's explore examples from different datasets:  
     1. **Tak Dataset:**  
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/9575a0f1-379a-4702-9371-8f4c3db290bd)
-    
+    ![2024-05-07_125243](https://github.com/labCOI/FRMIS/assets/60792530/23270228-2601-4298-93a1-c351051fb03d)
+
     3. **Human Colon Dataset:**  
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/2a904a4e-3bcb-4432-953d-fa0ed9dfbeeb)
-        
+    ![2024-05-07_125343](https://github.com/labCOI/FRMIS/assets/60792530/30ba1a7c-2dd5-463d-a5e1-0215adad5d47)
+  
     5. **Stem Cell Colony (SCC) Dataset - Level 3:**   
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/a39ebb15-be32-4378-a7cd-e739cae6e512)
-    
+    ![2024-05-07_124943](https://github.com/labCOI/FRMIS/assets/60792530/e6337287-4c21-4c7e-959f-4b238ba0d086)
+
     7. **Stem Cell Colony (SCC) Dataset - Level 1, Level 2, Phase:**    
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/fca7f7d9-0395-4982-ba1a-345f9c1649bd)
-     
+    ![2024-05-07_125016](https://github.com/labCOI/FRMIS/assets/60792530/ed71518b-5a77-415d-9212-b90d983e0522)
+
     9. **Stem Cell Colony (SCC) Dataset - Small, Small Phase:**   
-    ![image](https://github.com/labCOI/FRMIS/assets/60792530/0cc3f0aa-74da-4e16-b485-0b8b066db609)
-   
+    ![2024-05-07_124705](https://github.com/labCOI/FRMIS/assets/60792530/8c440aa4-feac-498b-9079-37bd91531264)
+
      These examples showcase various configurations of parameters for different datasets, enabling effective stitching of image collections.
 4. Run the script in MATLAB.
 
