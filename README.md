@@ -118,4 +118,7 @@ The script generates the stitched image and saves it as a JPG file. It also save
 
 - Ensure that the necessary MATLAB toolboxes (such as Image Processing Toolbox) are installed and accessible.
 
+## Citation
+If you find this work helpful for your research or project, please consider citing the accompanying article:
+[Fatemeh Sadat Mohammadi, Hasti Shabani, & Mojtaba Zarei‏. "Fast and robust feature-based stitching algorithm for microscopic images." Scientific Reports 14, 13304 (2024). DOI: 10.1038/s41598-024-61970-y](https://doi.org/10.1038/s41598-024-61970-y)
 
